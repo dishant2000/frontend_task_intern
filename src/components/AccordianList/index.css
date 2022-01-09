@@ -1,0 +1,19 @@
+.accordianlist-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  padding: 8px;
+}
+.accordianlist-item .item-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.accordian-list {
+  padding: 0px;
+  font-family: "Spline Sans", sans-serif;
+}

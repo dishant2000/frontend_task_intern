@@ -1,0 +1,9 @@
+.accordion-item {
+  margin: 8px;
+  border-radius: 0.25rem;
+}
+.accordion-item button {
+  padding: 8px;
+  font-size: small;
+  font-family: "Spline Sans", sans-serif;
+}

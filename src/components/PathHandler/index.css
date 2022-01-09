@@ -1,0 +1,9 @@
+.path-area {
+}
+.path-area .path-link {
+}
+.path-area .secondary-text {
+  font-size: smaller;
+  font-weight: 600;
+  color: var(--color-sec);
+}
