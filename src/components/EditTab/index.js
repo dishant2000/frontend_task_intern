@@ -43,7 +43,7 @@ function EditTab() {
         <div className="edit-main">
           <div className="edit-section">
             <div className="section-title">
-              <span>BASIC INFORMATION</span>
+              <span style = {{whileSpace : "nowrap"}}>BASIC INFORMATION</span>
               <hr
                 style={{
                   display: "inline-block",
