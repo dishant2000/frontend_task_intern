@@ -7,3 +7,6 @@
   font-size: small;
   font-family: "Spline Sans", sans-serif;
 }
+.accordion-body {
+  padding: 0;
+}

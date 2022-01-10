@@ -43,9 +43,14 @@ function EditTab() {
         <div className="edit-main">
           <div className="edit-section">
             <div className="section-title">
-              BASIC INFORMATION
+              <span>BASIC INFORMATION</span>
               <hr
-                style={{ display: "inline", width: "50%", margin: "0px 8px" }}
+                style={{
+                  display: "inline-block",
+                  width: "100%",
+                  margin: "0px 8px",
+                  whiteSpace: "nowrap",
+                }}
               />
             </div>
             <div className="edit-subsec">
@@ -85,7 +90,12 @@ function EditTab() {
             <div className="section-title">
               SECTIONS
               <hr
-                style={{ display: "inline", width: "50%", margin: "0px 8px" }}
+                style={{
+                  display: "inline-block",
+                  width: "100%",
+                  margin: "0px 8px",
+                  whiteSpace: "nowrap",
+                }}
               />
             </div>
             <div className="edit-body">
@@ -115,21 +125,36 @@ function EditTab() {
               <div
                 style={{
                   display: "flex",
-                  padding: "12px",
+                  padding: "8px",
                   alignItems: "center",
                   justifyContent: "space-between",
                   borderBottom: "1px rgb(219, 219, 219) solid",
                   color: "var(--color-sec)",
+                  fontSize: "smaller",
                 }}
               >
                 Save Draft
                 <AiOutlineCheck />
               </div>
-              <div style={{ color: "red", padding: "12px" }}>Delete Course</div>
+              <div
+                style={{ color: "red", padding: "8px", fontSize: "smaller" }}
+              >
+                Delete Course
+              </div>
             </div>
           </div>
           <div className="edit-section">
-            <div className="section-title">VIDEO</div>
+            <div className="section-title">
+              VIDEO
+              <hr
+                style={{
+                  display: "inline-block",
+                  width: "100%",
+                  margin: "0px 8px",
+                  whiteSpace: "nowrap",
+                }}
+              />
+            </div>
             <div className="edit-body">
               <div className="videosection-card">
                 <ReactPlayer
@@ -140,7 +165,7 @@ function EditTab() {
                 />
                 <div style={{ padding: "10px" }}>
                   <div className="subsec-title">URL</div>
-                  <div className="input-group input-group-sm mb-3">
+                  <div className="input-group input-group-sm">
                     <input
                       type="text"
                       className="form-control"
@@ -164,7 +189,17 @@ function EditTab() {
             </div>
           </div>
           <div className="edit-section">
-            <div className="section-title">OPTIONS</div>
+            <div className="section-title">
+              OPTIONS
+              <hr
+                style={{
+                  display: "inline-block",
+                  width: "100%",
+                  margin: "0px 8px",
+                  whiteSpace: "nowrap",
+                }}
+              />
+            </div>
             <div className="options-card">
               <div className="subsec-title">CATEGORY</div>
               <select

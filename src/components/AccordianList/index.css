@@ -6,7 +6,7 @@
   justify-content: space-between;
   font-size: small;
   border-bottom: 1px solid rgb(189, 189, 189);
-  padding: 8px;
+  padding: 12px;
 }
 .accordianlist-item .item-header {
   display: flex;
@@ -15,5 +15,6 @@
 }
 .accordian-list {
   padding: 0px;
+  margin: 0;
   font-family: "Spline Sans", sans-serif;
 }

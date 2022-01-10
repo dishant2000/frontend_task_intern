@@ -16,6 +16,7 @@ const TextEditor = () => {
           display: "flex",
           flexDirection: "column",
           borderRadius: "3px",
+          height: "150px",
         }}
         value={show}
         modules={{
