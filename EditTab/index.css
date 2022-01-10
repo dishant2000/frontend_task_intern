@@ -1,0 +1,85 @@
+.edit-wrapper {
+  margin-top: 20px;
+  font-family: "Exo", sans-serif;
+  margin-bottom: 20px;
+}
+.edit-content {
+  font-family: "Exo", sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+.edit-main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.edit-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+}
+.section-title {
+  font-size: smaller;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin: 12px 0px;
+}
+.edit-subsec {
+}
+
+.edit-subsec .subsec-body {
+  margin: 8px;
+}
+.subsec-title {
+  font-size: x-small;
+  font-weight: 600;
+  word-spacing: 0.01em;
+  margin: 12px 0px;
+}
+
+.edit-subsec .subsec-body .title-name {
+  font-family: "Spline Sans", sans-serif;
+  padding: 8px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-size: smaller;
+}
+.edit-textedit {
+}
+
+.edit-savecard {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-family: "Spline Sans", sans-serif;
+  font-size: small;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.edit-savecard .savecard-header {
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px rgb(219, 219, 219) solid;
+  align-items: center;
+  justify-content: center;
+}
+.edit-savecard .savecard-header button {
+  font-size: small;
+}
+.videosection-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+.secondary-text {
+  font-size: x-small;
+  font-weight: 600;
+  color: var(--color-sec);
+}
+.options-card {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 8px;
+  border-radius: 3px;
+}
